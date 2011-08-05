@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template" method="upgrade">
+	<name>mt_gcrafts</name>
+	<creationDate>July 2010</creationDate>
+	<author>MagicThemes</author>
+	<authorEmail>inquiries@magicthemes.com</authorEmail>
+	<authorUrl>http://magicthemes.com</authorUrl>
+	<copyright>Copyright 2010 MagicThemes. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>
+		<![CDATA[
+		<div id="magicthemes-installer-welcome" style="text-align:center;">
+			<br><br><br>
+			<h1>This Template Has Been Brought to you by: </h1><br> 
+			<a href="http://magicthemes.com" target="_new"><img src="../templates/mt_gcrafts/images/logo-large.png" alt="MagicThemes"></a>
+			<br><br>
+			<h3><a href="http://magicthemes.com" target="_new">MagicThemes.com</a> is a new Template Shop for Joomla that provides unique and creative Templates.</h3>
+			<h3> <a href="http://magicthemes.com" target="_new">Visit our website</a> to download more Free or Premium Templates.</h3>
+			<br><br>
+		</div>
+		]]>
+</description>
+
+	<files>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>mt-top</position>
+		<position>right</position>
+		<position>mt-banner</position>
+		<position>mt-search</position>
+		<position>mt-roktab</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>mt-footer</position>
+	</positions>
+	<params>
+		<param type="text" name="logoTitle" default="G-Crafts" size="50" label="Logo Title" description="Logo Title Text" />
+	</params>
+</install>

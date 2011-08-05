@@ -1,0 +1,73 @@
+.clearfix {display: inline;}
+
+.mt-bannerContents {
+	text-align: left;
+}
+
+#mt-topmenu .menu li,
+#mt-topmenu ul li {
+	display: inline;
+}
+
+span.inset_right {
+	padding-left: 20px;
+	margin: 10px;
+}
+
+span.inset_left {
+	padding-left: 30px;
+	margin: 10px;
+}
+
+.sectiontableentry1,
+.sectiontableentry2,
+.sectiontableentry0 {
+	text-align: left;
+}
+
+.mt-rightMods .menu {
+	list-style-image: none !important;
+}
+
+.mt-rightMods p.readmore a.readon {
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+
+#mt-rightPanel .mt-rightMods .moduletable h3,
+#mt-rightPanel .mt-rightMods .moduletable_menu h3,
+#mt-rightPanel .mt-rightMods .moduletable_text h3 {
+	margin-left: -25px;
+}
+
+div.search .button,
+p#loginbutton .button {
+	border: none;
+}
+
+p#loginbutton .button {
+	background: transparent url(../images/hor-sprite.png) repeat-x left -116px;  
+}
+
+.search .inputbox {
+	margin: 0 0 0 50px;
+	padding-top: 3px;
+	height: 17px;
+}
+
+span.dropcap {
+	padding: 7px;
+}
+
+#mt-contentPanel input{
+	border: none;
+}
+
+.leading p.readmore,
+.article_row p.readmore {
+	padding-bottom: 5px;
+}
+
+#mt-contentPanel input{
+	border: none;
+}
